@@ -1,0 +1,13 @@
+.btn-container {
+    margin: 40px 0;
+}
+
+.btn {
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 1px solid #1C6118;
+    border-radius: 5px;
+    background-color: #4E954A;
+    color: white;
+    cursor: pointer;
+}
