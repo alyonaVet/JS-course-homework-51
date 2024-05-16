@@ -1,0 +1,3 @@
+interface IBall {
+    value: number;
+}
