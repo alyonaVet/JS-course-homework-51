@@ -1,7 +1,7 @@
 const getRandomNumber = (min: number, max: number, count: number) => {
     const randomNumbers: number[] = [];
     while (randomNumbers.length < count) {
-        const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+        const randomNumber: number = Math.floor(Math.random() * (max - min + 1)) + min;
         if (!randomNumbers.includes(randomNumber)) {
             randomNumbers.push(randomNumber);
         }
